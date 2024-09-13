@@ -1,0 +1,45 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: crimson;
+}
+
+#app {
+	background-color: aliceblue;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#input-file-add {
+	width: 100%;
+}
+
+#button-add {
+	width: 100%;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#converting-list {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.converting-file {
+	background-color: antiquewhite;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
