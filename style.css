@@ -20,9 +20,11 @@ body {
 	background-color: aliceblue;
 	border-radius: 10px;
 	padding: 10px;
+	max-width: 300px;
+	width: 90%;
 }
 
-#input-file-add {
+#app * {
 	width: 100%;
 }
 
@@ -42,4 +44,19 @@ body {
 	padding: 10px;
 	border-radius: 10px;
 	border: 1px solid black;
+	margin-bottom: 6px;
+}
+
+.progress-bar {
+	height: 5px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	margin: 5px 0px;
+}
+
+.inner-progress-bar {
+	height: 100%;
+	background-color: red;
+	width: 0%;
 }
